@@ -3,11 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{5732C48A-7193-4521-B967-5E2F94A3FE2E}"
-	ProjectSection(SolutionItems) = preProject
-		E:\README.md = E:\README.md
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1528D0C7-14E9-4A1A-AAF7-FB71B1E65DB6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Core", "2 - Core", "{5FA03575-29EA-46B8-9798-91485556945E}"
@@ -23,18 +18,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirst.Web.Api", "CodeFirst.Web.Api\CodeFirst.Web.Api.csproj", "{BE52DD92-58CC-468D-B40E-E11CC3D5C0DA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirst.Domain", "CodeFirst.Domain\CodeFirst.Domain.csproj", "{E5C03321-9F29-49DB-8DFE-C0FF7C093CAB}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BD", "BD", "{1BE16FBC-4879-452F-B549-86ABDE2F2CFA}"
-	ProjectSection(SolutionItems) = preProject
-		C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Backup\Aranda.bak = C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Backup\Aranda.bak
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{8F836114-9674-4DDC-B5E1-6FA048E0B85E}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Proyectos\Oscar\sanamente-front\src\assets\img\angular.png = ..\..\..\..\Proyectos\Oscar\sanamente-front\src\assets\img\angular.png
-		..\..\..\..\Proyectos\Oscar\sanamente-front\src\assets\img\apple-icon.png = ..\..\..\..\Proyectos\Oscar\sanamente-front\src\assets\img\apple-icon.png
-		..\..\..\..\Proyectos\Oscar\tyco-front-admin\src\assets\img\compra.png = ..\..\..\..\Proyectos\Oscar\tyco-front-admin\src\assets\img\compra.png
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,7 +46,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{5732C48A-7193-4521-B967-5E2F94A3FE2E} = {1528D0C7-14E9-4A1A-AAF7-FB71B1E65DB6}
 		{5FA03575-29EA-46B8-9798-91485556945E} = {1528D0C7-14E9-4A1A-AAF7-FB71B1E65DB6}
 		{ECDCD522-FCDB-410F-B232-034B345323EF} = {1528D0C7-14E9-4A1A-AAF7-FB71B1E65DB6}
 		{B0681794-71FD-400E-9D21-69D68EEEAE71} = {1528D0C7-14E9-4A1A-AAF7-FB71B1E65DB6}
@@ -71,8 +53,6 @@ Global
 		{5A07F617-1FBD-40F4-B020-35532954C0E7} = {ECDCD522-FCDB-410F-B232-034B345323EF}
 		{BE52DD92-58CC-468D-B40E-E11CC3D5C0DA} = {B0681794-71FD-400E-9D21-69D68EEEAE71}
 		{E5C03321-9F29-49DB-8DFE-C0FF7C093CAB} = {5FA03575-29EA-46B8-9798-91485556945E}
-		{1BE16FBC-4879-452F-B549-86ABDE2F2CFA} = {5732C48A-7193-4521-B967-5E2F94A3FE2E}
-		{8F836114-9674-4DDC-B5E1-6FA048E0B85E} = {5732C48A-7193-4521-B967-5E2F94A3FE2E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8E340E49-E1DE-4F55-AFA1-EE96BBB77683}
